@@ -1,5 +1,5 @@
-(function(w) {
-  w.mtz_obs = w.mtz_obs || undefined;
+(function() {
+  window.mtz_obs = window.mtz_obs || '';
   var url = "http://bq-collector.dev.i.metricaz.com/collect";
   var xhr = new XMLHttpRequest();
 
