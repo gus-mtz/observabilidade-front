@@ -1,6 +1,6 @@
 (function() {
   window.mtz_obs = window.mtz_obs || '';
-  var url = "http://bq-collector.dev.i.metricaz.com/collect";
+  var url = "https://bq-collector.dev.i.metricaz.com/collect";
   var xhr = new XMLHttpRequest();
 
   xhr.open("POST", url, true);
